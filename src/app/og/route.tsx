@@ -1,36 +1,36 @@
-import { ImageResponse } from 'next/og';
-import { NextRequest } from 'next/server';
+import { ImageResponse } from "next/og";
+import { NextRequest } from "next/server";
 
-export const runtime = 'edge';
+export const runtime = "edge";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
-  const postTitle = searchParams.get('title');
+  const postTitle = searchParams.get("title");
 
   return new ImageResponse(
     (
       <div
         style={{
-          height: '100%',
-          width: '100%',
-          display: 'flex',
-          flexDirection: 'column',  
-          alignItems: 'flex-start',
-          justifyContent: 'center',
-          backgroundImage: 'url(https://gitcoder.vercel.app/og-bg.jpg)',
+          height: "100%",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-start",
+          justifyContent: "center",
+          backgroundImage: "url(https://mohamedkhalis.vercel.app/og-bg.jpg)",
         }}
       >
         <div
           style={{
             marginLeft: 190,
             marginRight: 190,
-            display: 'flex',
+            display: "flex",
             fontSize: 130,
-            letterSpacing: '-0.05em',
-            fontStyle: 'normal',
-            color: 'white',
-            lineHeight: '120px',
-            whiteSpace: 'pre-wrap',
+            letterSpacing: "-0.05em",
+            fontStyle: "normal",
+            color: "white",
+            lineHeight: "120px",
+            whiteSpace: "pre-wrap",
           }}
         >
           {postTitle}
@@ -40,6 +40,6 @@ export async function GET(req: NextRequest) {
     {
       width: 1920,
       height: 1080,
-    }
+    },
   );
 }
