@@ -23,7 +23,7 @@ export const projects = [
     name: "Hotel Reserver",
     description:
       "A robust highly scalable well designed backend system that handles bookings of hotel rooms built using (Golang, Fiber, Json Web Tokens, Mongodb, Std library, Docker)",
-    github: "https://github.com/admiral-simo/",
+    github: "https://github.com/Admiral-Simo/HotelReserver",
     img: "/images/projects/project-3.jpeg",
     projectTags: ["golang", "fiber", "mongodb", "docker"],
   },

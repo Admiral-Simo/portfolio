@@ -42,7 +42,7 @@ export default function RootLayout({
           dmsans.className,
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <Navbar />
           {children}
           <Footer />

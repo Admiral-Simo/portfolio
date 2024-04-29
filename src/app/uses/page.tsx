@@ -20,7 +20,12 @@ const Uses: FC = () => {
         <ul>
           <li>
             Neovim (
-            <a href="https://github.com/Admiral-Simo/neovim-config">Packages</a>
+            <a
+              className="capitalize"
+              href="https://github.com/Admiral-Simo/neovim-config"
+            >
+              neovim configuration
+            </a>
             )
           </li>
           <li>Rose Pine</li>
