@@ -2,16 +2,12 @@ import React, { FC } from "react";
 import { Metadata } from "next";
 import BlurImage from "@/components/BlurImage";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import {
-  GitHubLogoIcon,
-  InstagramLogoIcon,
-  LinkedInLogoIcon,
-} from "@radix-ui/react-icons";
+import { GitHubLogoIcon, InstagramLogoIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contact | Mohamed Khalis",
-  description: "Frontend developer, Content creator, and Public speaker",
+  description: "Fullstack developer, Content creator, and Public speaker",
 };
 
 const Contact: FC = () => {

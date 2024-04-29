@@ -4,7 +4,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 export const metadata: Metadata = {
   title: "Uses | Mohamed Khalis",
-  description: "Frontend developer, Content creator, and Public speaker",
+  description: "Fullstack developer, Content creator, and Public speaker",
 };
 
 const Uses: FC = () => {

@@ -24,9 +24,10 @@ export default function Home() {
           </h1>
           <div className="mt-6 text-md space-y-7 text-zinc-600 dark:text-zinc-400">
             <p>
-              Welcome to my digital nook. I&apos;m a frontend developer, content
-              creator, and public speaker. And here, I share what I&apos;ve been
-              working on recently and things I learned along the way.
+              Welcome to my digital nook. I&apos;m a fullstack developer,
+              content creator, and public speaker. And here, I share what
+              I&apos;ve been working on recently and things I learned along the
+              way.
             </p>
           </div>
           <div className="flex gap-4 mt-6">
