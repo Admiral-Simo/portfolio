@@ -1,6 +1,15 @@
 export const projects = [
   {
     id: "project-1",
+    name: "Passport/ID_Card Scanner",
+    description:
+      "AI document auto scanning that makes work more meaningful built using (Golang, Gin, Authorization, Htmx, Alpinejs, Std library, Docker)",
+    github: "https://github.com/Admiral-Simo/PassportScanner",
+    img: "/images/projects/project-4.png",
+    projectTags: ["golang", "gin", "htmx", "docker"],
+  },
+  {
+    id: "project-2",
     name: "Crypto Analyser",
     description:
       "A crypto project that allows you to navigate the crypto market and make the best investment decision.",
@@ -10,15 +19,6 @@ export const projects = [
     projectTags: ["reactjs", "tailwindcss", "axios"],
   },
   {
-    id: "project-2",
-    name: "Landing Page",
-    description: "A beautiful landing page",
-    demo: "https://landingo-seven.vercel.app/",
-    github: "https://github.com/admiral-simo/landingo",
-    img: "/images/projects/project-2.png",
-    projectTags: ["reactjs", "styled components"],
-  },
-  {
     id: "project-3",
     name: "Hotel Reserver",
     description:
@@ -26,5 +26,14 @@ export const projects = [
     github: "https://github.com/Admiral-Simo/HotelReserver",
     img: "/images/projects/project-3.jpeg",
     projectTags: ["golang", "fiber", "mongodb", "docker"],
+  },
+  {
+    id: "project-4",
+    name: "Landing Page",
+    description: "A beautiful landing page",
+    demo: "https://landingo-seven.vercel.app/",
+    github: "https://github.com/admiral-simo/landingo",
+    img: "/images/projects/project-2.png",
+    projectTags: ["reactjs", "styled components"],
   },
 ];
