@@ -1,9 +1,10 @@
 export const projects = [
   {
     id: "project-1",
-    name: "Passport/ID_Card Scanner",
+    name: "Corentos",
     description:
-      "AI document auto scanning that makes work more meaningful built using (Golang, Gin, Authorization, Htmx, Alpinejs, Std library, Docker)",
+      "AI document (passport / ID Card) auto scanning that makes work more meaningful built using (Golang, Gin, Authorization, Htmx, Alpinejs, Std library, Docker)",
+    demo: "http://31.220.89.29:4000/",
     github: "https://github.com/Admiral-Simo/PassportScanner",
     img: "/images/projects/project-4.png",
     projectTags: ["golang", "gin", "htmx", "docker"],
